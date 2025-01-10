@@ -1,0 +1,16 @@
+export default function MainContent() {
+    return (
+        <main>
+            <h1>Reasons to be excited to be learning react</h1>
+            <ol>
+                <li>some thing</li>
+                <li>some thing</li>
+                <li>some thing</li>
+                <li>some thing</li>
+                <li>some thing</li>
+                <li>some thing</li>
+                <li>some thing</li>
+            </ol>
+        </main>
+    )
+}
