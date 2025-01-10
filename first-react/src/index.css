@@ -3,47 +3,42 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #27292c;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+}
+
+header {
+  height: 15%;
+  background-color: #21222A;
+  align-content: center;
+  padding-left: 1rem;
+}
+
+header nav {
+  color: #71CFF2;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+}
+
+header nav img {
+  margin-right: 1rem;
+}
+
+main {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
   color: white;
 }
 
-h1 {
-  margin-top: 30px;
+main ul li{
+  padding: 1rem;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 20px 20px 20px 20px;
-  border-bottom-style: solid;
-  border-bottom-color: #343638;                
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  margin: 0; 
-  padding: 0; 
-}
-
-.nav-list li {
-  padding: 0.5em;
-}
-
-.img {
-  width: 55px; 
-}
-
-footer {
-  height: 50px;
-  width: 100%;
-  display: flex;
-  background-color: black;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
+main ul li::marker{
+  color: #71CFF2;
+  font-size: 1.5rem ;
 }
