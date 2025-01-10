@@ -6,8 +6,15 @@ const root = createRoot(document.querySelector('#root'))
 
 function Header() {
     return (
-    <header>
-        <img src="src/assets/react.svg" width='40px' alt="React Logo" />
+    <header className="header">
+        <img className='img' src="src/assets/react.svg" alt="React Logo" />
+        <nav>
+            <ul className="nav-list">
+                <li className="pricing">Pricing</li>
+                <li className="about">About</li>
+                <li className="contact">Contact</li>
+            </ul>
+        </nav>
     </header>
     )
 }
